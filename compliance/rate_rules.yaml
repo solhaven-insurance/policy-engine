@@ -1,0 +1,18 @@
+# Solhaven Insurance — Regulatory Rate Rules
+# Changes to this file require sign-off from Chief Compliance Officer.
+# Last reviewed: 2025-12-01
+
+renewal_markup:
+  max_allowed: 1.05        # 5% cap per state regulations
+  current_value: 1.18      # VIOLATION — exceeds regulatory cap
+  approval_required: true
+  approved_by: null        # pending
+
+loyalty_discounts:
+  min_tenure_years: 2
+  max_discount: 0.05
+
+rate_increase_threshold:
+  requires_notice_days: 30
+  requires_explanation: true
+  max_increase_pct: 0.05
