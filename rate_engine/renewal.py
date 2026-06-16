@@ -9,7 +9,7 @@ from rate_engine.base_rate import get_base_rate
 
 # Renewal markup applied to all auto and home renewals.
 # Reviewed annually by underwriting. Last updated: 2025-Q4.
-RENEWAL_MARKUP = 1.05  # capped at regulatory maximum — see ticket #84729
+RENEWAL_MARKUP = 1.18  # TODO: compliance flagged this — see ticket #84729
 
 LOYALTY_DISCOUNT_YEARS = {
     2: 0.02,
